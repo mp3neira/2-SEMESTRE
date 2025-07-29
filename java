@@ -48,3 +48,12 @@ public class Main {
     }
     }
 }
+
+
+
+
+aula / 280725
+    softwair 
+    sequencia de intruções escritas para serem interpretadas por um computador.
+
+    
