@@ -3,3 +3,32 @@ Obrigatorio para iniciar java;
   public class Main {
     public static void main(String[] args) {
       
+
+AULA DE HOJE 
+
+import javax.swing.*;
+import java.util.Scanner;
+
+//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
+// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+public class IMC {
+    public static void main(String[] args) {
+
+        double peso = 0;
+        double altura = 0;
+        double imc = 0;
+
+        String aux = "";
+
+        aux = JOptionPane.showInputDialog("Informe o peso:");
+        peso = Double.parseDouble(aux);
+
+        aux = JOptionPane.showInputDialog("Informe a altura:");
+        altura = Double.parseDouble(aux);
+
+        imc = peso / (altura * altura);
+
+        String msg = "O IMC é: "+imc;
+        JOptionPane.showMessageDialog(null, msg);
+    }
+}IMC
