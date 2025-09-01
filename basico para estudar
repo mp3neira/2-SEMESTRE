@@ -1,0 +1,26 @@
+Senhas exercicio:
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+
+    Scanner s = new Scanner (System.in);
+    String aux = "";
+    int senha = 0;
+
+    System.out.println("Digitar senha:");
+    aux = s.next();
+    senha = Integer.parseInt(aux);
+
+
+    if (senha == 1234) {
+        System.out.println("Acesso liberado");
+
+    }else {
+        System.out.println("Acesso negado");
+
+    }
+    }
+}
+
